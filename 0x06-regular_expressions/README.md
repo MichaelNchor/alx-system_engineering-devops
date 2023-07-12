@@ -1,24 +1,32 @@
-# Regular expression
+# System Dev Up- RUBY :page_with_curl: 0x06. Regular expression
+## ABout this project:
+In this project i learnt and practiced basic and advanced
+regular expressions using RUBY.
+## Task file description:
+  * [0-simply_match_holberton.rb](./0-simply_match_holberton.rb): Ruby script that
+  matches the regular expression `School`.
 
-In this project, I learned how to use regular expressions. I practiced building
-them using Ruby's Oniguruma library.
+  * [1-repetiteen 2-5 `t`'s in between `hb` and `n`.
 
-All code in this directory was tested using [Rubular](https://rubular.com/). Rubular is a Ruby-based regular expression editor. It's a handy way to test regular expressions as you write them.
-
-## Tasks :p
-  the regular expression `hbn` with between 2-5 `t`'s in between `hb` and `n`.
-
-* **2. Repetition Token #1**
   * [2-repetition_token_1.rb](./2-repetition_token_1.rb): Ruby script that matches
   the regular expression `hn` with 0 or 1 occurrences of `b` and 0 or 1
   occurrences of `t` in between `h` and `n`.
 
+  * [3-repetition_token_2.rb](./3-repetition_token_2.rb): Ruby script that matches
+  the regular expression `hbn` with 1 or more `t`'s in between `hb` and `n`.
 
-* **7. OMG WHY ARE YOU SHOUTING?**
+  * [4-repetition_token_3.rb](./4-repetition_token_3.rb): Ruby script that matches the
+  regular expression `hbn` with 0 or more `t`'s in between `hb` and `n`.
+
+  * [5-beginning_and_end.rb](./5-beginning_and_end.rb): Ruby script that matches a
+  regular expression starting with `h` and ending with `n` with any single character in between.
+
+  * [6-phone_number.rb](./6-phone_number.rb): Ruby script that matches a regular expression
+  representing a 10-digit phone number.
+
   * [7-OMG_WHY_ARE_YOU_SHOUTING.rb](./7-OMG_WHY_ARE_YOU_SHOUTING.rb): Ruby script that
   matches regular expressions of uppercase letters.
 
-* **8. Textme**
   * [100-textme.rb](./100-textme.rb): Ruby script that runs statistics on TextMe app text
   message transcations.
   * Output: `[SENDER],[RECEIVER],[FLAGS]` where
